@@ -27,5 +27,3 @@ jobs:
       - run: mvn test
       - run: mvn install
 
-      - notify_slack_error
-      - notify_slack_pass
