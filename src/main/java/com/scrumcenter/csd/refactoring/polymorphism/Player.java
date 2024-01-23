@@ -12,6 +12,7 @@ public class Player {
             case "Warrior" -> "Warrior moves forward";
             case "Mage" -> "Mage teleports";
             case "Rogue" -> "Rogue sneaks";
+            case "Druid" -> "Druid crawls on all fours";
             default -> throw new IllegalArgumentException("Invalid player type");
         };
     }
